@@ -1,0 +1,18 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PP FORMULA';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../../public/assets/PPFormula-CondensedBlack.otf') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+.hero-top-title{
+    font-size: 114px;
+    text-transform: uppercase;
+    color: #0567FA  ;
+    letter-spacing: 6px;
+}
+.hero-image{
+    width: 100%;
+}

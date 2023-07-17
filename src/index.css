@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'PP FORMULA';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../../../public/assets/PPFormula-CondensedBlack.otf') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: #111;
+}
+li{
+    list-style: none;
+}
+button{
+    border: none;
+    background: none;
+    outline: none;
+}
+
+body{
+    max-width: 1500px;
+    background-color: #fff;
+    margin: 0 auto;
+
+}
+
+
+.container{
+    width: 98% !important;
+    margin: 0 auto;
+    padding: 0px 40px;
+
+}
+
+.bottom-border{
+    border-bottom: 2px solid #ccc;
+}
+
+.hero{
+    padding-top: 100px;
+}
