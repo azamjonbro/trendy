@@ -33,16 +33,16 @@ function index() {
 
           <div className="nav-linkbar">
             <a href="#" className="nav-linkbar-link">
-              {t("nav-link1")}
+              {t("navLink1")}
             </a>
             <a href="" className="nav-linkbar-link">
-              {t("nav-link2")}
+              {t("navLink2")}
             </a>
             <a href="" className="nav-linkbar-link">
-              {t("nav-link3")}
+              {t("navLink3")}
             </a>
             <a href="" className="nav-linkbar-link">
-              {t("nav-link4")}
+              {t("navLink4")}
             </a>
           </div>
 
