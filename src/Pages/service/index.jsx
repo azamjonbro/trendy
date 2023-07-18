@@ -2,8 +2,10 @@ import React from 'react'
 import './style.scss'
 function index() {
   return (
-    <div>
-      Services
+    <div className="servis">
+      <div className="servis-cont container">
+        
+      </div>
     </div>
   )
 }
