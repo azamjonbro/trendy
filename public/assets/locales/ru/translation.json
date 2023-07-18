@@ -1,7 +1,7 @@
 {
-    "navLink1":"ГЛАВНАЯ",
-    "navLink2":"О компании",
-    "navLink3":"носки",
-    "navLink4":"контакт",
+    "navLinkA":"ГЛАВНАЯ",
+    "navLinkB":"О компании",
+    "navLinkC":"носки",
+    "navLinkD":"контакт",
     "contact":"контакт"
 }
