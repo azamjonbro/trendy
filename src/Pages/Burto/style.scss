@@ -1,6 +1,8 @@
 .bruto{
     margin: 0 auto  ;
     margin-top: 161px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
     
    
     &-top{
@@ -48,7 +50,7 @@
         &-item_right{
             display: flex;
             flex-wrap: wrap;
-            width: 67.5%;
+            width: 70%;
             
             &-img{
                 width: 100%;
@@ -58,7 +60,7 @@
                 border-radius: 16px;
             }
             &-img2{
-                width: 480px;
+                width: 500px;
                 height: 670px;
                 padding: 5px;
                 border-radius: 16px;
@@ -71,11 +73,12 @@
                 height: 48px;
             }
             &-img3{
-                width: 480px;
+                width: 490px;
                 height: 440px;
                 margin-top: 180px;
                 padding: 5px;
                 border-radius: 16px;
+                padding-right: 0px;
             }
         }
     }

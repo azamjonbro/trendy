@@ -1,0 +1,32 @@
+.service-top{
+    margin-top: 80px;
+}
+.service_box{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+   
+}
+
+.shop-navlink{
+    width: 450px;
+    
+    &-imgbox{
+        width: 460px;
+        height: 570px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &-item{
+            width: 160px;
+        height: 160px;
+        border-radius:50%;
+        background: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 0px 34px  #F0F0F0;
+        }
+    }
+}
