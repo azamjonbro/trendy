@@ -1,7 +1,7 @@
 .bruto{
     margin: 0 auto  ;
     margin-top: 161px;
-    width: 1540px;
+    
    
     &-top{
         margin-left: 80px;
@@ -17,11 +17,15 @@
         height: 1120px;
         display: flex;
         margin-top: 80px;
+        &-text{
+            font-size: 20px;
+            font-weight: 400;
+        }
         &-item_left{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            width: 30%;
+            width: 440px;
             div {
                 width: 120px;
                 height: 120px;
@@ -54,7 +58,7 @@
                 border-radius: 16px;
             }
             &-img2{
-                width: 440px;
+                width: 480px;
                 height: 670px;
                 padding: 5px;
                 border-radius: 16px;
@@ -67,7 +71,7 @@
                 height: 48px;
             }
             &-img3{
-                width: 440px;
+                width: 480px;
                 height: 440px;
                 margin-top: 180px;
                 padding: 5px;
