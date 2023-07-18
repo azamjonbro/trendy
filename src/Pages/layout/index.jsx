@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.scss";
 import rightIcon from '../../assets/icon-right.png'
+import { NavLink } from "react-router-dom";
 function index() {
   return (
-    <div className="layout">
+    <NavLink to='/shop' className="layout">
       <div className="container layout-container">
         <div className="layout-left">
           <img src="https://picsum.photos/id/316/320/290" alt="" />
@@ -22,7 +23,7 @@ function index() {
           </div>
         </div>
       </div>
-    </div>
+    </NavLink>
   );
 }
 

@@ -1,9 +1,10 @@
 import React from 'react'
 import icon from '../../assets/tepaga.png'
 import './style.scss';
+import { NavLink } from 'react-router-dom';
 function index(props) {
   return (
-    <div className="props-card" key={props.img}>
+    <NavLink to='/shop' className="props-card" key={props.img}>
         <div className="props-card-imgbox">
             <img src={props.img} alt={props.title} />
 
@@ -14,7 +15,7 @@ function index(props) {
             </h4>
             <div className="tepaga_icon"><img src={icon} alt={props.title} /></div>
         </div>
-    </div>
+    </NavLink>
   )
 }
 

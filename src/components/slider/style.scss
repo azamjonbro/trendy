@@ -1,0 +1,28 @@
+.slick-list{
+    background: #0567FA;
+    height: 60px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    margin-top: 120px;
+    
+       .sliderr{
+        width: 600px !important;
+       
+        height: 60px;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-family: 'PP FORMULA';
+        text-transform: uppercase;
+        font-size: 30px;
+        letter-spacing: 4px;
+        color: #fff;
+        margin-top: 10px;
+        margin-left: 40px !important;
+        
+    }
+    
+}

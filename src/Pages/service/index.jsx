@@ -23,7 +23,7 @@ function index() {
               </div>
             </div>
             <div className="props-card-titlebox">
-              <h5>batafsil</h5>
+              <h5 className="props-card-titlebox-title">Providing intermediary services and talented freelancers</h5>
             </div>
           </NavLink>
         </div>
