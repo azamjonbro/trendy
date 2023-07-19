@@ -2,12 +2,13 @@ import React from "react";
 import Cart from "../../components/cart";
 import './style.scss';
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 function index() {
   const { t } = useTranslation();
 
   return (
-    <div className="shop">
+    <NavLink to='/shop' className="shop">
       <div className="shop-cont container">
         <div className="shop-top ">
           <h2>{t('shop-tit')}</h2>
@@ -79,7 +80,7 @@ function index() {
         </div>
         <button className="cart_button">{t('batafsil')}</button>
       </div>
-    </div>
+    </NavLink>
   );
 }
 
