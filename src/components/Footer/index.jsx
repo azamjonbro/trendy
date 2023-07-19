@@ -3,7 +3,7 @@ import './style.scss'
 function index() {
   return (
     <div>
-      lorem100000
+      footer
     </div>
   )
 }

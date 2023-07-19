@@ -19,6 +19,7 @@ function Router() {
       <Slider />
       <Shop />
       <Contact />
+      <Footer />
     </>
   )
 }
