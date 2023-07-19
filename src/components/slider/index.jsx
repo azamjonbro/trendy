@@ -5,16 +5,124 @@ function index() {
     const settings = {
         
         infinite: true,
-        speed: 100,
-        slidesToShow: 6,
+        speed: 300,
+        slidesToShow: 7,
         slidesToScroll: 1,
         autoplay:true,
-        autoplaySpeed:400,
+        autoplaySpeed:1000,
         
       };
   return (
     <div className="container slider-card">
         <Slider {...settings}>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
+        <div className="sliderr">Trendy</div>
         <div className="sliderr">Trendy</div>
         <div className="sliderr">Trendy</div>
         <div className="sliderr">Trendy</div>

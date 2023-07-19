@@ -6,6 +6,8 @@ import Layout from './Pages/layout'
 import Bruto from './Pages/Burto'
 import Service from'./Pages/service'
 import Slider from './components/slider'
+import Shop from './Pages/Shop'
+import Contact from './Pages/contact'
 function Router() {
   return (
     <>
@@ -15,6 +17,8 @@ function Router() {
       <Bruto />
       <Service />
       <Slider />
+      <Shop />
+      <Contact />
     </>
   )
 }

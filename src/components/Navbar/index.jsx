@@ -69,7 +69,7 @@ function index() {
             </ul>
           </div>
 
-          <button className="contact">{t("contact")}</button>
+          <button className="contact-btn">{t("contact")}</button>
         </div>
       </div>
     </header>

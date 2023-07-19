@@ -1,0 +1,51 @@
+.cart{
+    margin-top: 80px;
+    width: 440px;
+    height: 440px;
+    &-img{
+        width: 440px ;
+        height: 380px;
+        border-radius: 16px;
+    }
+    &_body{
+        display: flex;
+        justify-content: space-between ;
+        margin-top: 20px;
+        border-left: 1px solid #ccc;
+        p{
+            font-size: 24px;
+            padding-left: 21px;
+            font-weight: 400;
+            color: #666;
+        }    
+    }
+    .colors{
+        display: flex !important;
+        gap: 5px;
+        span{
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: black;
+        }
+        span:nth-child(1){
+            background: red;
+        }
+        span:nth-child(2){
+            background: blue;
+        }
+       
+    }
+    &_button{
+        margin-top: 160px;
+        width: 100%;
+        height: 52px;
+        border-radius:16px;
+        border: 1px solid #ccc;
+        text-transform: capitalize;
+        color: #666;
+        font-weight: 400;
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

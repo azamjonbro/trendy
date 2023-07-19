@@ -1,25 +1,26 @@
 .layout {
-    margin-top: 100px;
-    cursor: pointer;
+ 
 
     .layout-container {
         display: flex;
+        justify-content: space-between;
+        margin-top: 100px !important;
 
     }
 
     .layout-left {
-        width: 56%;
+
 
         img {
-            width: 670px;
+            width: 570px;
             height: 440px;
             border-radius: 16px;
         }
     }
 
     .layout-right {
-        width: 44%;
-        
+
+        width: 650px;
 
         h3 {
             font-size: 60px;
@@ -41,7 +42,7 @@
             align-items: center;
             width: 100px;
             height: 100%;
-            margin-right:30px;
+            margin-right: 30px;
         }
 
     }
@@ -72,7 +73,7 @@
 }
 
 
-.layout-container{
+.layout-container {
     padding-bottom: 80px;
     border-bottom: 1px solid #ccc;
 }

@@ -3,7 +3,9 @@
     "navLinkB":"Category",
     "navLinkC":"Socks",
     "navLinkD":"Contact",
-    "contact":"Contact"
+    "contact":"Contact",
+    "contact-title":"Leave your details and we will contact you",
+    "send":"Send"
 
     
 }
