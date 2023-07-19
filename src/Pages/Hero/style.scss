@@ -7,12 +7,46 @@
   }
 
 
-.hero-top-title{
-    font-size: 114px;
-    text-transform: uppercase;
-    color: #0567FA  ;
-    letter-spacing: 6px;
+.hero-container{
+    width: 1420px !important;
+    height: 640px;
+    background: #0567FA;
+    border-radius:20px;
+    position: relative;
+    margin-top: 50px;
+
 }
-.hero-image{
-    width: 100%;
+.hero-top-title{
+    font-size: 96px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-top: 60px;
+    line-height: 96px;
+}
+.hero-bottom{
+    justify-content: space-between;
+    height: 500px;
+    width: 95%;
+    display: flex;
+    position: absolute;
+    top: 140px;
+    img{
+        right: 30px;
+    }
+
+}
+.qanaqadir{
+    width: 162px;
+    height: 36px;
+    font-size: 18px;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-top: 330px;
+    margin-left: 35px;
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

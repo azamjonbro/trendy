@@ -13,7 +13,7 @@ function index() {
         
       };
   return (
-    <div className="container slider-card">
+    <div className=" slider-card">
         <Slider {...settings}>
         <div className="sliderr">Trendy</div>
         <div className="sliderr">Trendy</div>

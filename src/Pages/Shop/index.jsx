@@ -1,12 +1,16 @@
 import React from "react";
 import Cart from "../../components/cart";
 import './style.scss';
+import { useTranslation } from "react-i18next";
+
 function index() {
+  const { t } = useTranslation();
+
   return (
     <div className="shop">
       <div className="shop-cont container">
-        <div className="shop-top bruto-top">
-          <h2>Providing intermediary services freelanc</h2>
+        <div className="shop-top ">
+          <h2>{t('shop-tit')}</h2>
         </div>
         <div className="shop-bottom">
           <Cart
@@ -73,7 +77,7 @@ function index() {
             color3="dark"
           />
         </div>
-        <button className="cart_button">batafsil</button>
+        <button className="cart_button">{t('batafsil')}</button>
       </div>
     </div>
   );

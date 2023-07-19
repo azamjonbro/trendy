@@ -1,10 +1,15 @@
 {
-    "navLinkA":"Biz haqimizda",
-    "navLinkB":"Bo'limlar",
-    "navLinkC":"Paypoqlar",
+    "navLinkA":"Biz Haqimizda",
+    "navLinkB":"Kategoriya",
+    "navLinkC":"Maxsulotlar",
     "navLinkD":"Bog'lanish",
     "contact":"Bog'lanish",
+    "hero-title":"Zamonaviy kiyimlar trendy bilan",
+    "send":"yuborish",
+    "layout-tit" : "o’z ishining ustasi bo’lgan jamoamiz",
     "contact-title":"malumotingizni qoldiring aloqaga chiqamiz",
-    "send":"Yuborish",
-    "":""
+    "bruto-tit" : "Biz bozorning katta qismini egalladik",
+    "about-tit" : "Keng qamrovli mahsulotlar istalgan turda",
+    "shop-tit" : "O’zgacha ko’rinish va sifat uyg’unligi",
+    "batafsil" : "Batafsil"
 }

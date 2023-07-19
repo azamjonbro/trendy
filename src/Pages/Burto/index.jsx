@@ -1,12 +1,17 @@
 import React from 'react'
 import './style.scss'
 import updoticon from '../../assets/updoticon.png'
+import { useTranslation } from "react-i18next";
+
+
 function index() {
+  const { t } = useTranslation();
+
   return (
     <div className='bruto'>
       <div className="container bruto-cont">
             <div className="bruto-top">
-              <h2>Providing intermediary services freelanc</h2>
+              <h2>{t('bruto-tit')}</h2>
             </div>
             <ul className="bruto-imagebar">
                 <li className="bruto-imagebar-item_left">

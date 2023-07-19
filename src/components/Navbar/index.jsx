@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+
 import "./style.scss";
 import i18next from "i18next";
 import logo from "../../assets/logo.svg";

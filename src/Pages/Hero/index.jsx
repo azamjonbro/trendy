@@ -1,19 +1,23 @@
 import React from 'react'
 import './style.scss';
-import titlesock from '../../assets/title-sock.png'
+import krasovka from '../../assets/krasofka.png'
 import heroBottom from '../../assets/hero-bottom.png'
+import { useTranslation } from "react-i18next";
+
 function index() {
+  const { t } = useTranslation();
   return (
     <div className="hero">
       <div className="container hero-container">
         <div className="hero-top">
             <h1 className='hero-top-title'>
-                Zamonaviy Kiyimlar Trendy <span><img src={titlesock} alt="" /></span> bilan
+                {t('hero-title')}
             </h1>
         </div>
-        <div className="hero-bottom">
-            <img src={heroBottom} alt="image" className='hero-image' />
-        </div>
+       <div className="hero-bottom">
+        <a className='qanaqadir'>{t('contact')}</a>
+        <img src={krasovka} alt="" />
+       </div>
       </div>
     </div>
   )

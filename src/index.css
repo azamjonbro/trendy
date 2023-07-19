@@ -51,3 +51,23 @@ body{
 .hero{
     padding-top: 100px;
 }
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.loading-card{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    
+}
+.load-txt{
+    position: absolute;
+    top: 44%;
+    left: 30%;
+    font-family: 'PP FORMULA';
+    font-size: 50px;
+    font-weight: 500;
+}

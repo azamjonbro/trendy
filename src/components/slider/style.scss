@@ -1,15 +1,17 @@
 .slick-list{
-    background: #0567FA;
+    
+    width: 95% !important;
     height: 60px;
     display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
-    margin-top: 120px;
+    margin: 120px auto 0;
+
     
        .sliderr{
-        width: 300px !important;
+        width: 80px !important;
        
         height: 60px;
         display: flex !important;
@@ -26,3 +28,10 @@
     }
     
 }
+.slider-card{
+    width: 100% !important;
+    background: #0567FA;
+
+    
+}
+
