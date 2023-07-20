@@ -29,7 +29,8 @@ function App() {
             ariaLabel="oval-loading"
             secondaryColor="#0567FA"
             strokeWidth={1}
-            strokeWidthSecondary={1}
+            strokeWidthSecondary={0}
+            
             
           />
           <h2 className='load-txt'>TRENDY</h2>
