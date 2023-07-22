@@ -8,8 +8,8 @@
 
 
 .hero-container{
-    width: 1420px !important;
-    height: 640px;
+    width: 98% !important;
+    height: 660px;
     background: #0567FA;
     border-radius:20px;
     position: relative;
@@ -25,11 +25,12 @@
     line-height: 96px;
 }
 .hero-bottom{
-    justify-content: space-between;
-    height: 500px;
-    width: 95%;
     display: flex;
-    position: absolute;
+    justify-content: space-between;
+    // height: 500px;
+    width: 95%;
+    align-items: end;
+   
     top: 140px;
     img{
         right: 30px;
@@ -37,16 +38,22 @@
 
 }
 .qanaqadir{
-    width: 162px;
-    height: 36px;
+    width: 182px;
+    height: 46px;
     font-size: 18px;
+    background-color: #111;
     color: #fff;
-    border: 1px solid #fff;
-    margin-top: 330px;
+   
+    margin-bottom: 50px;
     margin-left: 35px;
-    border-radius: 16px;
+    border-radius: 20px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.bdb{
+    width: 90%;
+    margin: 0 auto;
+    display: none;
 }

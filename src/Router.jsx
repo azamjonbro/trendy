@@ -13,13 +13,13 @@ function Router() {
     <>
       <Navbar />
       <Hero />
-      <Layout />
-      <Bruto />
-      <Service />
-      <Slider />
-      <Shop />
-      <Contact />
-      <Footer />
+      {/* <Layout /> */}
+      {/* <Bruto /> */}
+      {/* <Service /> */}
+      {/* <Slider /> */}
+      {/* <Shop /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   )
 }

@@ -33,7 +33,6 @@
         a{
             font-size: 16px;
             font-weight: 400;
-            color: #666;
         }
     }
 }
@@ -93,6 +92,25 @@ header{
    color: #111 !important;
    font-weight: 700;
 
+}
+.button_resp{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: #0567FA;
+    border-radius:50%;
+    color: #fff;
+}
+.nav-res{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    background: #ccc;
+    a{
+        color: #fff;
+    }
 }
 
 

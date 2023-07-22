@@ -17,6 +17,7 @@ function index() {
        <div className="hero-bottom">
         <a className='qanaqadir'>{t('contact')}</a>
         <img src={krasovka} alt="" />
+        
        </div>
       </div>
     </div>

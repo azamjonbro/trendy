@@ -9,7 +9,8 @@ var telegram_bot_id = ""; // token'ni o'rniga Siz yaratgan Bot tokenini yozing
 const sendtelegram = (e) => {
   e.preventDefault()
   var botToken = "6347914753:AAH3LUaJv6L794F92CzKOIDs_iVKUc-Dc38";
-  var chatId = 103508974;
+  // var chatId = 103508974;
+  var chatId = 2043384301
   const name = document.getElementById("name").value;
   const phone = document.getElementById("phone").value;
   var messageText = "Ism :  " + name + "\ntel:   " + phone;
@@ -27,7 +28,7 @@ const sendtelegram = (e) => {
   })
     .then((response) => response.json())
     .then((data) => {
-      console.log("Xabar yuborildi:", data);
+      alert("Xabar yuborildi:", data);
       document.getElementById('name').value=''
       document.getElementById('phone').value=''
     
@@ -56,7 +57,7 @@ function index() {
               id="name"
             />
             <input
-              type="phone"
+              type="tel"
               placeholder="phone"
               required
               pattern="^\+\d{1,3}\s?\(\d{1,}\)\s?\d{1,}[-\s]?\d{1,}[-\s]?\d{1,}$"

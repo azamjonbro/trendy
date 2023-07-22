@@ -16,7 +16,7 @@ function App() {
   }, []);
   return (
     <>
-      {load ? (
+      {/* {load ? (
         <div className="loading">
           <div className="loading-card">
           <Oval
@@ -37,8 +37,8 @@ function App() {
           </div>
         </div>
       ) : (
+        )} */}
         <Router />
-      )}
     </>
   );
 }

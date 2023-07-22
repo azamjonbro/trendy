@@ -1,40 +1,76 @@
-import React from 'react'
-import './style.scss'
-import updoticon from '../../assets/updoticon.png'
-import { useTranslation } from "react-i18next";
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/parallax";
 
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import {EffectCoverflow,  Navigation, Parallax}from 'swiper/modules'
+import './style.scss'
 
 function index() {
-  const { t } = useTranslation();
-
   return (
-    <div className='bruto'>
-      <div className="container bruto-cont">
-            <div className="bruto-top">
-              <h2>{t('bruto-tit')}</h2>
-            </div>
-            <ul className="bruto-imagebar">
-                <li className="bruto-imagebar-item_left">
-                    <div className="bruto-imagebar-iconbox">
-                      <img src={updoticon} alt="" />
-                    </div>
-                    <img src="https://picsum.photos/id/381/320/290" alt="" className="bruto-imagebar-item_left-img"/> 
-                    <p className='bruto-imagebar-text'>Providing intermediary services and talented freelancers</p>
-                </li>
-                <li className="bruto-imagebar-item_right">
-                  <img src="https://picsum.photos/id/20/320/290" alt="image" className='bruto-imagebar-item_right-img' />
-                  <img src="https://picsum.photos/id/23/320/290" alt="" className="bruto-imagebar-item_right-img2" />
-                  <span>
-                    <p className="bruto-imagebar-item_right-text">
-                  Providing intermediary services and talented freelancers
-                  </p>
-                  <img src="https://picsum.photos/id/22/320/290" alt="" className="bruto-imagebar-item_right-img3" />
-                  </span>
-                </li>
-            </ul>
-      </div>
+    <div className="bruto container">
+     <div className="container">
+      <h1 className="heading">Flower Gallery</h1>
+      <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slidesPerView={2}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 250,
+          modifier: 2.5,
+        }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          clickable: true,
+        }}
+        pagination={{ el: '.swiper-pagination', clickable: true }}
+        modules={[EffectCoverflow, Navigation, Parallax]}
+        className="swiper_container"
+      >
+        <SwiperSlide>
+          <img src='https://picsum.photos/id/20/660/340' alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://picsum.photos/id/20/660/340' alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://picsum.photos/id/20/660/340' alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://picsum.photos/id/20/660/340' alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://picsum.photos/id/20/660/340' alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://picsum.photos/id/20/660/340' alt="slide_image" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='https://picsum.photos/id/20/660/340' alt="slide_image" />
+        </SwiperSlide>
+
+        <div className="slider-controler">
+          <div className="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
+          </div>
+          <div className="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <div className="swiper-pagination"></div>
+        </div>
+      </Swiper>
     </div>
-  )
+    </div>
+  );
 }
 
-export default index
+export default index;
+import "swiper/css";

@@ -9,7 +9,7 @@ import { BrowserRouter } from 'react-router-dom';
 import ru from '../public/assets/locales/ru.json'
 import uz from '../public/assets/locales/uz.json'
 import en from '../public/assets/locales/en.json'
-
+import './media.scss'
 import App from './App'
 
 
