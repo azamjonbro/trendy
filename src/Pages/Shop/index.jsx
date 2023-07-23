@@ -9,7 +9,7 @@ function index() {
 
   return (
     <NavLink to='/shop' className="shop">
-      <div className="shop-cont ">
+      <div className="shop-cont container">
         <div className="shop-top ">
           <h2 className='shop-title'>{t('shop-tit')}</h2>
         </div>

@@ -167,6 +167,16 @@
         font-size: 40px;
     }
   }
+  .shop-bottom{
+    justify-content: center !important;
+    .cart{
+        width: 80%;
+        
+        img{
+            width: 100%;
+        }
+    }
+  }
 
   .props-card{
     width: 400px !important;
@@ -389,5 +399,14 @@
     }
     .cart_button{
         width: 83% !important;
+    }
+    .contact-left-top{
+        h3{
+            font-size: 25px !important;
+        }
+    
+    }
+    .contact-left{
+        height: 500px !important;
     }
  }
