@@ -3,8 +3,8 @@ import { useTranslation } from "react-i18next";
 import { Routes, Route } from "react-router-dom";
 import Router from "./Router.jsx";
 import { Oval } from "react-loader-spinner";
-
-
+import Allert from './components/alert'
+import Error from './components/error'
 function App() {
   const { t } = useTranslation();
   const [load, setLoad] = useState(false);
@@ -16,7 +16,7 @@ function App() {
   }, []);
   return (
     <>
-      {/* {load ? (
+      {load ? (
         <div className="loading">
           <div className="loading-card">
           <Oval
@@ -37,8 +37,15 @@ function App() {
           </div>
         </div>
       ) : (
-        )} */}
-        <Router />
+        <Routes>
+          <Route path="/" element={<Router/>}/>
+          <Route path="/*" element={<Error/>}/>
+          <Route path="/shop" element={<Allert/>}/>
+
+
+        </Routes>
+
+        )}
     </>
   );
 }
