@@ -6,14 +6,14 @@ function index() {
         
         infinite: true,
         speed: 300,
-        slidesToShow: 7,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay:true,
         autoplaySpeed:1000,
         
       };
   return (
-    <div className=" slider-card container">
+    <div className=" slider-card ">
         <Slider {...settings}>
         <div className="sliderr">Trendy</div>
         <div className="sliderr">Trendy</div>

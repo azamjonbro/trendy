@@ -9,9 +9,9 @@ function index() {
 
   return (
     <NavLink to='/shop' className="shop">
-      <div className="shop-cont container">
+      <div className="shop-cont ">
         <div className="shop-top ">
-          <h2>{t('shop-tit')}</h2>
+          <h2 className='shop-title'>{t('shop-tit')}</h2>
         </div>
         <div className="shop-bottom">
           <Cart
@@ -78,7 +78,9 @@ function index() {
             color3="dark"
           />
         </div>
+        <div className="shop_batafsil-box">
         <button className="cart_button">{t('batafsil')}</button>
+        </div>
       </div>
     </NavLink>
   );

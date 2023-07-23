@@ -2,6 +2,8 @@ import React from 'react'
 import icon from '../../assets/tepaga.png'
 import './style.scss';
 import { NavLink } from 'react-router-dom';
+import image from "../../assets/updoticon.png";
+
 function index(props) {
   return (
     <NavLink to='/shop' className="props-card" key={props.img}>

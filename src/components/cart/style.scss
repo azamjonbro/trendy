@@ -1,9 +1,9 @@
 .cart{
     margin-top: 80px;
-    width: 440px;
+    width: 340px;
     height: 440px;
     &-img{
-        width: 440px ;
+        width: 340px ;
         height: 380px;
         border-radius: 16px;
     }
@@ -13,7 +13,7 @@
         margin-top: 20px;
         border-left: 1px solid #ccc;
         p{
-            font-size: 24px;
+            font-size: 16px;
             padding-left: 21px;
             font-weight: 400;
             color: #666;
@@ -37,8 +37,9 @@
        
     }
     &_button{
-        margin-top: 160px;
-        width: 100%;
+        margin: 160px auto 0 !important;
+        text-align: center;
+        width: 93%;
         height: 52px;
         border-radius:16px;
         border: 1px solid #ccc;
@@ -47,5 +48,6 @@
         font-weight: 400;
         font-size: 20px;
         cursor: pointer;
+        text-transform: uppercase;
     }
 }

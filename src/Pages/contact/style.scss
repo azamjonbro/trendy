@@ -5,15 +5,15 @@
         justify-content: space-between ;
     }
     &-left{
-        width: 670px;
+        width: 45%;
         height: 560px;
         background: #F0F0F0;
         border-radius: 16px;
         &-top{
             margin: 48px 145px 0 40px;
             h3{
-                font-size: 48px;
-                font-weight: 500;
+                font-size: 42px;
+                font-weight: 400;
                 text-transform: uppercase;
             }
         }
@@ -52,7 +52,7 @@
         }
     }
     &-right{
-        width: 670px;
+        width: 45%;
         height: 560px;
         iframe{
             width: 100%;

@@ -58,7 +58,7 @@ function index() {
             />
             <input
               type="tel"
-              placeholder="phone"
+              placeholder="Raqamingiz"
               required
               pattern="^\+\d{1,3}\s?\(\d{1,}\)\s?\d{1,}[-\s]?\d{1,}[-\s]?\d{1,}$"
               className="phone"
