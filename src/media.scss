@@ -1,5 +1,5 @@
 
-@media (max-width:1240px){
+@media(max-width:1240px){
     .container{
         width: 96% !important;
     }
@@ -47,7 +47,7 @@
      width: 450px !important;
     }
     .layout-right >h3{
-     font-size: 40px !important;
+     font-size: 40px ;
     }
    }
    .servis{
@@ -63,8 +63,9 @@
     &-top{
         margin-left: 100px  !important;
         h2{
-            font-size: 45px  ;
-            width: 100%  !important;
+            font-size: 45px  !important;
+            width: 90%  !important;
+            margin: 0 auto  ;
         }
     }
   }
@@ -146,7 +147,7 @@
     }
     }
     .layout-right >h3{
-     font-size: 40px !important;
+     font-size: 40px ;
     }
    }
    .servis{
@@ -288,14 +289,16 @@
   }
 }
 @media (max-width:786px){
-
+    .hero-container{
+        width: 80% !important;
+    }
     
     .layout-titl{
         font-size: 25px !important ;
      }
     .servis{
         .servis-titl{
-            font-size: 40px !important;
+            font-size: 40px ;
             font-weight: 500;
          }
     }
@@ -304,7 +307,7 @@
         .hero-top-title{
           padding-top:50px ;
           margin-left: 5px;
-            font-size: 45px !important;
+            font-size: 45px ;
             line-height: 50px !important;
         }
     }
@@ -335,7 +338,56 @@
 
     }
     .shop-title{
-        font-size: 40px !important;
+        font-size: 40px;
         text-align: center;
+    }
+ }
+ @media (max-width:500px){
+    .props-card{
+        width:100% !important ;
+    }
+    .hero-top-title{
+        font-size: 38px !important;
+    }
+    .layout-titl{
+        font-size: 30px !important;
+    }
+    .servis-titl{
+        font-size: 30px !important;
+    }
+    .shop-title{
+        text-align: start;
+        
+    }
+    .shop-top{
+        h2{
+            font-size: 35px !important;
+            text-align: start;
+            width: 80% !important;
+        }
+    }
+    .hero{
+
+        .hero-container{
+            width: 85% !important;
+        }
+        .hero-bottom{
+            img{
+                width: 330px !important;
+                height: 230px;
+            }
+        }
+    }
+    .slider-card{
+        width: 100% !important;
+    }
+    .cart{
+        width: 82% !important;
+        img{
+            width: 100% !important;
+        }
+    }
+    .cart_button{
+        width: 83% !important;
     }
  }
