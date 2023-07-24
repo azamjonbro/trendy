@@ -392,11 +392,86 @@
         width: 100% !important;
     }
     .cart{
-        width: 82% !important;
+        width: 100% !important;
         img{
             width: 100% !important;
         }
     }
+    .cart_button{
+        width: 83% !important;
+    }
+    .contact-left-top{
+        h3{
+            font-size: 25px !important;
+        }
+    
+    }
+    .cart_body{
+        border: none;
+        p{
+            padding: 0 !important;
+        }
+    }
+    .contact-left{
+        height: 500px !important;
+    }
+ }
+ 
+
+ @media (max-width:450px){
+    .nav-language-pg{
+        margin: 0 !important;
+    }
+    .props-card{
+        width:100% !important ;
+        .props-card-titlebox> h4{
+            font-size: 23px !important;
+        }
+    }
+    .hero-top-title{
+        font-size: 30px !important;
+    }
+    .hero-bottom{
+        img{
+            width: 280px !important;
+        }
+    }
+    .layout-titl{
+        font-size: 23px !important;
+        line-height: 30px !important;
+    }
+    .servis-titl{
+        font-size: 23px !important;
+        line-height: 30px !important;
+    }
+    
+    .shop-top{
+        .shop-title{
+            font-size: 23px !important;
+            line-height: 40px !important;
+        }
+        h2{
+            font-size: 35px !important;
+            text-align: start;
+            width: 80% !important;
+        }
+    }
+    .hero{
+
+        .hero-container{
+            width: 85% !important;
+        }
+        .hero-bottom{
+            img{
+                width: 330px !important;
+                height: 230px;
+            }
+        }
+    }
+    .slider-card{
+        width: 100% !important;
+    }
+    
     .cart_button{
         width: 83% !important;
     }
