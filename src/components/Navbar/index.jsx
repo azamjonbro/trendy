@@ -3,9 +3,8 @@ import { useTranslation } from "react-i18next";
 
 import "./style.scss";
 import i18next from "i18next";
-import logo from "../../assets/logo.svg";
-import {TbMenu} from 'react-icons/tb'
-import { FaTimes } from 'react-icons/fa';
+import { useParams } from "react-router-dom";
+
 function index() {
   const language = [
     { id: 1, value: "uz", label: "uz" },
@@ -20,12 +19,17 @@ function index() {
       label: "ru",
     },
   ];
+  const navlink = useParams()
   const { t } = useTranslation();
   const [active, setActive] = useState('#');
-  // const [burger , setBurger]= useState('#')
   const [click, setClick] = useState(false);
-
+ 
   const handleClick = () => setClick(!click);
+
+  const nav = document.querySelectorAll('.nav-linkbar-link')
+  useEffect(()=>{
+    
+  },[])
   return (
     <header>
       <div className="container bottom-border">
@@ -40,13 +44,13 @@ function index() {
             <a href="#" className="nav-linkbar-link">
               {t("navLinkA")}
             </a>
-            <a href="" className="nav-linkbar-link">
+            <a href="#service" className="nav-linkbar-link">
               {t("navLinkB")}
             </a>
-            <a href="" className="nav-linkbar-link">
+            <a href="#shop" className="nav-linkbar-link">
               {t("navLinkC")}
             </a>
-            <a href="" className="nav-linkbar-link">
+            <a href="#contact" className="nav-linkbar-link">
               {t("navLinkD")}
             </a>
           </div>

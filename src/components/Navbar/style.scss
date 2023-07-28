@@ -105,11 +105,15 @@ header{
     width: 100%;
     display: flex;
     flex-direction: column;
+    // flex-wrap: wrap;
+    gap: 20px;
     align-items: center;
     padding-top: 100px;
-    background: #ccc;
+    background: #8d8b8b !important;
+    
     a{
         color: #fff;
+        font-size: 30px !important;
     }
 }
 
