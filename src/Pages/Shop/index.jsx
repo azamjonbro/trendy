@@ -3,7 +3,7 @@ import Cart from "../../components/cart";
 import './style.scss';
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
-
+import data from '../../data/data.json'
 function index() {
   const { t } = useTranslation();
 
@@ -14,69 +14,24 @@ function index() {
           <h2 className='shop-title'>{t('shop-tit')}</h2>
         </div>
         <div className="shop-bottom">
-          <Cart
-            img="https://picsum.photos/id/19/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/12/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/48/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/10/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/34/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/29/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/43/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/99/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
-          <Cart
-            img="https://picsum.photos/id/100/290/320"
-            text="Providing intermediary services"
-            color1="red"
-            color2="blue"
-            color3="dark"
-          />
+        {
+        data.rasmlar.slice(6,15).map((props)=>{
+          return(
+            <div className="cart">
+        <img src={props.img} alt={props.title} className="cart-img" />
+        <div className="cart_body">
+            <p>{props.title}</p>
+        <div className="colors">
+            <span className='{props.color1}'></span>
+            <span className='{props.color2}'></span>
+            
+            <span className='{props.color3}'></span>
+        </div>
+        </div>
+    </div>
+          )
+        })
+      }
         </div>
         <div className="shop_batafsil-box">
         <button className="cart_button">{t('batafsil')}</button>

@@ -1,94 +1,98 @@
 {
     "rasmlar":[{
-        "img":"./data/images/img1.jpg",
-        "img2":"data/images/img1-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img1.jpg",
+        "img2":"../../../public/images/img1-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },
     {
-        "img":"/images/img2.jpg",
-        "img2":"/images/img2-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img3.jpg",
+        "img2":"../../../public/images/img3-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img3.jpg",
-        "img2":"/images/img3-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img4.jpg",
+        "img2":"../../../public/images/img4-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img4.jpg",
-        "img2":"/images/img4-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img5-2.jpg",
+        "img2":"../../../public/images/img5-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img5.jpg",
-        "img2":"/images/img5-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img6.jpg",
+        "img2":"../../../public/images/img6-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img6.jpg",
-        "img2":"/images/img6-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img7.jpg",
+        "img2":"../../../public/images/img7-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img7.jpg",
-        "img2":"/images/img7-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img8-2.jpg",
+        "img2":"../../../public/images/img8.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img8.jpg",
-        "img2":"/images/img8-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img10.jpg",
+        "img2":"../../../public/images/img10-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img9.jpg",
-        "img2":"/images/img9-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
-    },{
-        "img":"/images/img10.jpg",
-        "img2":"/images/img10-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
-    },{
-        "img":"/images/img11.jpg",
-        "img2":"/images/img11-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
-    },{
-        "img":"/images/img12.jpg",
-        "img2":"/images/img12-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img11.jpg",
+        "img2":"../../../public/images/img11-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     }
     ,{
-        "img":"/images/img13.jpg",
-        "img2":"/images/img13-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
-    }
-    ,{
-        "img":"/images/img15.jpg",
-        "img2":"/images/img15-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
-    }
-    ,{
-        "img":"/images/img16.jpg",
-        "img2":"/images/img16-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img12.jpg",
+        "img2":"../../../public/images/img12-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     },{
-        "img":"/images/img17.jpg",
-        "img2":"/images/img17-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img13.jpg",
+        "img2":"../../../public/images/img13-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
+    },{
+        "img":"../../../public/images/img14.jpg",
+        "img2":"../../../public/images/img14-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
+    },{
+        "img":"../../../public/images/img15.jpg",
+        "img2":"../../../public/images/img15-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     }
     ,{
-        "img":"/images/img18.jpg",
-        "img2":"/images/img18-2.jpg",
-        "title2":"Trendy Paypoqlari",
-        "title":"trendy-paypoqlari"
+        "img":"../../../public/images/img16.jpg",
+        "img2":"../../../public/images/img16-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
+    },{
+        "img":"../../../public/images/img17.jpg",
+        "img2":"../../../public/images/img17-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
+    },{
+        "img":"../../../public/images/img18.jpg",
+        "img2":"../../../public/images/img18-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
+    },{
+        "img":"../../../public/images/img6.jpg",
+        "img2":"../../../public/images/img6-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
+    }
+    ,{
+        "img":"../../../public/images/img7.jpg",
+        "img2":"../../../public/images/img7-2.jpg",
+        "title2":"Trendy",
+        "title":"trendy"
     }
     ]
 }

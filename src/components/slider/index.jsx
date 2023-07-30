@@ -6,8 +6,8 @@ function index() {
         
         infinite: true,
         speed: 300,
-        slidesToShow: 5,
-        slidesToScroll: 1,
+        slidesToShow: 6,
+        slidesToScroll: 2,
         autoplay:true,
         autoplaySpeed:1000,
         

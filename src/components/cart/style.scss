@@ -1,5 +1,5 @@
 .cart{
-    margin-top: 80px;
+    margin-top: 60px;
     width: 440px;
     height: 440px;
     &-img{
@@ -13,10 +13,11 @@
         margin-top: 20px;
         border-left: 1px solid #ccc;
         p{
-            font-size: 16px;
+            font-size: 24px;
             padding-left: 21px;
             font-weight: 400;
             color: #666;
+            text-transform: uppercase;
         }    
     }
     .colors{
