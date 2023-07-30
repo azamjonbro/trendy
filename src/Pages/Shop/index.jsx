@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Cart from "../../components/cart";
 import './style.scss';
 import { useTranslation } from "react-i18next";
@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import data from '../../data/data.json'
 function index() {
   const { t } = useTranslation();
-
+  
   return (
     <NavLink to='/shop' className="shop">
       <div className="shop-cont container">
