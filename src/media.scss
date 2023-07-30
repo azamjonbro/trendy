@@ -2,6 +2,11 @@
     .container{
         width: 1480px !important;
     }
+    .hero{
+        .hero-container{
+            width: 1480px !important;
+        }
+    }
 }
 
 @media(max-width:1240px){
