@@ -7,6 +7,9 @@
             width: 1480px !important;
         }
     }
+    .slider-card{
+        width: 1400px !important;
+    }
 }
 
 @media(max-width:1240px){
@@ -60,15 +63,15 @@
      font-size: 40px ;
     }
    }
-   .servis{
+   
     .service-top{
         margin-left: 70px !important;
     }
-    .service-top h3{
+    .servis-titl{
        font-size: 55px;
     }
     
-  }
+  
   .shop{
     &-top{
         margin-left: 100px  !important;
@@ -160,17 +163,16 @@
      font-size: 40px ;
     }
    }
-   .servis{
+   
     .service-top{
         margin-left: 0px !important;
         width: 100%;
     }
-    .service-top h3{
+    .servis-titl{
        font-size: 54px;
         
     }
     
-  }
   .shop{
       .shop-top{margin-left: 50px ;}
     &-top >h2{
@@ -289,13 +291,13 @@
         display: none !important;
     }
    }
-   .servis {
-    .service-top h3{
+   
+    .servis-titl{
         font-size: 45px;
         font-weight: 400px;
         line-height: 60px;
     }
-   }
+   
    
 .service_box{
     display: flex  !important;
@@ -316,12 +318,11 @@
     .layout-titl{
         font-size: 25px !important ;
      }
-    .servis{
         .servis-titl{
             font-size: 40px ;
             font-weight: 500;
          }
-    }
+    
     .hero{
 
         .hero-top-title{
@@ -373,7 +374,7 @@
         font-size: 30px !important;
     }
     .servis-titl{
-        font-size: 30px !important;
+        font-size: 30px ;
     }
     .shop-title{
         text-align: start;
@@ -447,13 +448,16 @@
         }
     }
     .layout-titl{
-        font-size: 23px !important;
+        font-size: 30px !important;
         line-height: 30px !important;
     }
-    .servis-titl{
-        font-size: 23px !important;
-        line-height: 30px !important;
-    }
+    
+        .servis > .service-top>h3{
+            font-size: 20px !important;
+            line-height: 30px !important;
+        }
+    
+
     
     .shop-top{
         .shop-title{
@@ -480,6 +484,7 @@
     }
     .slider-card{
         width: 100% !important;
+        display: none;
     }
     
     .cart_button{
